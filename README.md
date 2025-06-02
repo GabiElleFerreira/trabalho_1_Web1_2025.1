@@ -1,6 +1,11 @@
 # trabalho_1_Web1_2025.1
 Trabalho da disciplina de Programação para Web 1.
+
+
+
 Tema 1
+
+
 Imagine que vocˆe faz parte de um projeto de desenvolvimento de software em uma empresa de tecnologia.
 Durante uma reuni ̃ao, foi decidido que vocˆe seria o respons ́avel em construir uma p ́agina web para divulgar
 o projeto para a comunidade em geral. Vocˆe ficou livre para definir a estrutura da p ́agina, considerando
