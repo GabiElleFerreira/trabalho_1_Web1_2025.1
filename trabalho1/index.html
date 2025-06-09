@@ -4,21 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BugHunters</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div id="header">
-        <header>
-            <h1>🐞 Bug Hunters - Aprendizado Interativo de Programação</h1>
-            <h3>🚀 Aprender a programar nunca foi tão divertido!</h3>
-        </header>
-    </div>
-    
-    <div id="app">
-    <p>Bug Hunters é uma plataforma inovadora que ensina programação de forma leve, prática e envolvente. Inspirado no estilo Duolingo, nosso app usa a gamificação para transformar o aprendizado em uma aventura interativa: aqui, você caça bugs enquanto domina linguagens como Python, JavaScript e C.</p>
-    </div>
-    
+    <header>
+        <div id="primeiro">
+            <div id="texto">
+                <div id="titulo">
+                <h1><span id="bug">Bug Hunters</span> Aprendizado Interativo de Programação</h1>
+                </div>
+            
+                <div id="subtitulo">
+                <h3>Aprender a programar nunca foi tão divertido!</h3>
+                </div>    
+            </div>
 
+            <div id="imagemtitulo">
+            <figure id="imagem1">
+                <img src="imagens/joaninhamelhor.png" alt="Joaninha">
+            </figure>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <di id="app">
+            <div class="coluna" id="c1">
+                <h4>Comece agora sua jornada como caçador de bugs e domine a programação de forma única, divertida e eficiente! 🔥</h4>
+                <p> 
+                    Bug Hunters é uma plataforma inovadora que ensina programação de forma leve, prática e envolvente. Inspirado no estilo Duolingo, nosso app usa a gamificação para transformar o aprendizado em uma aventura interativa: aqui, você caça bugs enquanto domina linguagens como Python, JavaScript e C.
+                </p>
+            </div>
+
+            <div class="coluna" id="c2">
+                <h4>Cadastre-se Para Começar sua Jornada!</h4>
+                <form>
+                <label for="nome">Nome:</label>
+                <br>
+                <input type="text" id="nome">
+                <br>
+                <label for="email">Email:</label>
+                <br>
+                <input type="text" id="email">
+                <br><br>
+                <button type="submit" id="botao">Começar agora!</button>
+                </form>
+            </div>
+
+            <div class="coluna" id="c3">
+                <div id="textonatela">
+                    <h3>🕹️ Como funciona?</h3>
+                    <ul>
+                        <li>Escolha seu nível: <em>Aprendiz, Caçador ou Dedetizador</em></li>
+                
+                        <li>Encare <em>desafios diários de depuração</em> (caça aos bugs)</li>
+                        
+                        <li>Ganhe <em>pontos, medalhas e conquistas</em> a cada progresso</li>
+                        
+                        <li>Aprenda com seus erros com <em>explicações simples e objetivas</em></li>
+           
+                        <li>Dispute no <em>ranking com outros usuários</em></li>
+                    </ul>
+                </div>
+                <div id="imagem2">
+                    <figure id="bugnatela">
+                        <img src="imagens/ideiasadias.png" alt="bug no computador">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </main>
+
+ <footer>
+    <div id="rodape">
+        <p>“Este projeto ́e apenas ilustrativo. Estas páginas foram desenvolvidas como atividade da Disciplina Programação para Web"</p>
+    </div>
+</footer>
 
 </body>
 </html>
